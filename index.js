@@ -281,7 +281,7 @@ const main = async () => {
     await fetchTransactions();
     await processTransactionList();
     console.log("Waiting 10 minutes for next fetch...");
-    await delay(600000); // Wait 10 minutes (600,000 ms)
+    await delay(120000); // Wait 2 minutes (600,000 ms)
   }
 };
 
